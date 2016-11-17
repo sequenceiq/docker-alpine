@@ -2,6 +2,7 @@ FROM gliderlabs/alpine:3.3
 
 RUN apk -U add \
   bash \
+  git \
   curl \
   netcat-openbsd \
   openssh-client
